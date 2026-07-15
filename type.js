@@ -35,4 +35,4 @@ console.log("Hello")
 console.log(typeof greet)
 //  null
 const data = null;
-console.log(typeof data); // "object"
+console.log(typeof data); 
