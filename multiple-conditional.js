@@ -41,3 +41,25 @@ else if (bcs) {
 else {
     console.log("Rejected");
 }
+
+
+
+
+const score = 90;
+const project = true;
+const interview = true;
+
+if (score >= 85 && project=== true && interview=== true){
+    console.log("hired")
+}
+
+ else if(score>=85 && project===true){
+    console.log("Final Interview")
+ }
+
+ else if (score >= 70 ){
+    console.log("need Improvement")
+ }
+ else{
+    console.log("Rejected")
+ }
