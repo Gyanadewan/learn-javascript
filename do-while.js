@@ -3,7 +3,7 @@ let count = 1;
 do{
     console.log("count number is",count)
     count++
-} while(count<=5)
+  } while(count<=5)
     
 
 //  sum of 1-10;
