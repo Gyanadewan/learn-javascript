@@ -54,6 +54,24 @@
 
 // Copy a portion of the array using slice()
 // Start from index 1 and stop before index 2
-const fruits2 = ["Apple", "Mango", "Banana", "Orange", "Lichi"];
-const result = fruits2.slice(1, 2);
-console.log(result);
+// const fruits2 = ["Apple", "Mango", "Banana", "Orange", "Lichi"];
+// const result = fruits2.slice(1, 2);
+// console.log(result);
+
+// indexOf method dao tarpor value dao check koro
+// const fruits = ["Apple","Mango","Banana"];
+// if(fruits.indexOf("Mango") !==-1){
+//     console.log("Found")
+// }
+// else{
+//     console.log("Not found");
+// }
+
+// join() joins all array elements into one string
+// const fruits = ["Apple", "Mango","Banana"];
+// console.log(fruits.join(" "))
+
+
+// includes() checks if a value exists in an array
+const fruits = ["Apple", "Mango","Banana"];
+console.log(fruits.includes("Mango"))
