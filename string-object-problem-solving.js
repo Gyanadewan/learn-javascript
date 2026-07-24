@@ -7,6 +7,7 @@
 // Try str.push("!") — what happens? Why does this fail for strings but not arrays?
 
 
+
 let str = "hello";
 let arr = ["h", "e", "l", "l", "O"]
 console.log(str.length)
@@ -196,3 +197,45 @@ console.log("Total:", total)
 console.log("average:",average)
 
 
+
+// Task 9.1 — Contact Book
+// Build a small "contact" system:
+// let contact = {
+//   name: "Alex Johnson",
+//   email: "ALEX@EMAIL.COM",
+//   phone: "555-1234"
+// };
+// Convert the email to lowercase and update the object.
+// Loop through the contact object and print each key-value pair.
+// Add a new property favoriteWords: [] (an array) — push 3 words to it.
+// Reverse the name string just for fun using one of your three reverse functions from Task 4.1.
+// Check if the email includes "@email.com" (case-insensitive) and log a confirmation message.
+
+
+let contact = {
+  name: "Alex Johnson",
+  email: "ALEX@EMAIL.COM",
+  phone: "555-1234"
+};
+
+// contact.email = contact.email.toLowerCase()
+// console.log(contact.email)
+
+contact.email =(contact.email.toLowerCase())
+console.log(contact.email)
+
+for (let user in contact){
+  console.log(user,":",contact[user]);
+    
+}
+
+contact.favoriteWords = []
+contact.favoriteWords.push("facebook")
+console.log(contact)
+
+console.log(contact.name.split("").reverse("").join(""))
+
+
+if ( contact.email.toLowerCase().includes("@email.com")){
+  console.log("rigth mail")
+}
