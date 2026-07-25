@@ -11,3 +11,18 @@ function fahrenheitToCelsius (F) {
     return convertfarenToCelsius
 }
 console.log(fahrenheitToCelsius(68))
+
+
+function checkNumber (number){
+    if(number === 0){
+       return "zero";
+    }
+     else if(number>0){
+        return "positive"
+     }
+      else{
+         return "negative"
+      }
+}
+
+console.log(checkNumber(-1))
