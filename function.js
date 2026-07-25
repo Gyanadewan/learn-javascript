@@ -6,5 +6,8 @@ function convertSeconds (minute) {
 console.log(convertSeconds(5))
 
 
-
-
+function fahrenheitToCelsius (F) {
+    const convertfarenToCelsius = (F-32)*5/9
+    return convertfarenToCelsius
+}
+console.log(fahrenheitToCelsius(68))
