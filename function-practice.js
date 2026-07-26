@@ -30,3 +30,23 @@ function cutHalf (num){
  const numbers = [24,34,53,54,34,56];
  const dobouledNumber = firstElementDouble(numbers)
  console.log(dobouledNumber)
+
+ const student = {
+    name : "Abir",
+    id: 15,
+    marks :  95
+ }
+
+ function isStudentAplus (){
+    const marks = student.marks;
+    console.log("his marks", marks)
+    if (marks >= 80){
+        return true;
+    }
+    else{
+        return false;
+    }
+ }
+
+ const isAplus = isStudentAplus (student)
+ console.log(isAplus)
