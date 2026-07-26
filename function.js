@@ -26,3 +26,11 @@ function checkNumber (number){
 }
 
 console.log(checkNumber(-1))
+
+//  use function defult parameter
+function greet(name = "Guest") {
+  console.log("Hello " + name);
+}
+greet();
+
+greet("Gyana");
