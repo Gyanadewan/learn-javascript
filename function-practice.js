@@ -50,3 +50,19 @@ function cutHalf (num){
 
  const isAplus = isStudentAplus (student)
  console.log(isAplus)
+
+
+
+
+  let sum = 0;
+ function  sumOfArray(array) {
+    
+    for (let num of array){
+         sum = sum+num;
+    }
+    return sum;
+ }
+
+ const numbers2 = [12,34,34,56,67];
+ const result2 = sumOfArray(numbers2)
+ console.log(result2)
