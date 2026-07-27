@@ -65,4 +65,30 @@ function cutHalf (num){
 
  const numbers2 = [12,34,34,56,67];
  const result2 = sumOfArray(numbers2)
- console.log(result2)
+ console.log("sum of array ",result2)
+
+
+const numbers3 = [21,24,34,35,23,44,30]
+
+// const evens = [];
+// for (const num of numbers3){
+//      if (num%2 == 0){
+//        evens.push(num)
+       
+//      }   
+// }
+
+// console.log(evens)
+
+
+function getEvenNumbers (array){
+    const evens = [];
+    for (const num of array){
+        if(num % 2===0)
+            evens.push(num)
+    }
+     return evens;
+}
+
+const evenNumber = getEvenNumbers(numbers3)
+console.log("evenNumber",evenNumber)
