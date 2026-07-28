@@ -177,3 +177,19 @@ function productOfDigits(num){
  const numbers = productOfDigits(123)
  console.log("eitah total number",numbers)
 
+
+ function getOddNumbers (n){
+   // console.log(typeof n)
+   let str = n.toString()
+   // console.log(typeof str)
+   let odds = [];
+   for (let odd of str){
+      if (Number(odd) % 2 === 1){
+           odds.push(Number(odd))
+      }
+     
+   }
+   return odds;
+ }
+
+ console.log(getOddNumbers(123456789));
