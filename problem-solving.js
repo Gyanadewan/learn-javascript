@@ -32,3 +32,19 @@ console.log(checkTemperature(40));
 
 
 
+function reversNumber (num){
+    let str = num.toString();
+    
+    let charArray = str.split("")
+    // console.log(charArray)
+    
+    let reversedArray = charArray.reverse();
+    console.log(reversedArray)
+
+    let reversedStr =reversedArray.join("");
+   return reversedStr
+}
+let numberss = [5,6,7,8,9]
+let restult = reversNumber(numberss);
+console.log(restult)
+
