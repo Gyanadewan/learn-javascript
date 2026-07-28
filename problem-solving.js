@@ -165,31 +165,48 @@
 
 
 
-function productOfDigits(num){
-     let str = num.toString()
-     let total = 1;
-     for (let char of str){
-        total = total * Number(char) ;
-     }
-     return total
-}
+// function productOfDigits(num){
+//      let str = num.toString()
+//      let total = 1;
+//      for (let char of str){
+//         total = total * Number(char) ;
+//      }
+//      return total
+// }
 
- const numbers = productOfDigits(123)
- console.log("eitah total number",numbers)
+//  const numbers = productOfDigits(123)
+//  console.log("eitah total number",numbers)
 
 
- function getOddNumbers (n){
-   // console.log(typeof n)
-   let str = n.toString()
-   // console.log(typeof str)
-   let odds = [];
-   for (let odd of str){
-      if (Number(odd) % 2 === 1){
-           odds.push(Number(odd))
-      }
+//  function getOddNumbers (n){
+//    // console.log(typeof n)
+//    let str = n.toString()
+//    // console.log(typeof str)
+//    let odds = [];
+//    for (let odd of str){
+//       if (Number(odd) % 2 === 1){
+//            odds.push(Number(odd))
+//       }
      
+//    }
+//    return odds;
+//  }
+
+//  console.log(getOddNumbers(123456789));
+
+
+
+
+
+ function countVowels (str){
+   let vowels = "aeiou";
+   let count = 0;
+   for (let char of str){
+     if (vowels.includes(char)){
+       count ++;
+     }
    }
-   return odds;
+   return count
  }
 
- console.log(getOddNumbers(123456789));
+console.log(countVowels("javascript")) 
