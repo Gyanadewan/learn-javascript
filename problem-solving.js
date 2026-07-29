@@ -210,3 +210,15 @@
  }
 
 console.log(countVowels("javascript")) 
+
+
+
+
+function removeFirstAndLast(str){
+  // console.log(str)
+    const cut =  str.slice(1,str.length -3)
+     return (cut)
+}
+
+console.log(removeFirstAndLast("Hello"))
+console.log(removeFirstAndLast("javascript"))
