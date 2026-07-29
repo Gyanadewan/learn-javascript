@@ -198,27 +198,55 @@
 
 
 
- function countVowels (str){
-   let vowels = "aeiou";
-   let count = 0;
-   for (let char of str){
-     if (vowels.includes(char)){
-       count ++;
-     }
-   }
-   return count
- }
+//  function countVowels (str){
+//    let vowels = "aeiou";
+//    let count = 0;
+//    for (let char of str){
+//      if (vowels.includes(char)){
+//        count ++;
+//      }
+//    }
+//    return count
+//  }
 
-console.log(countVowels("javascript")) 
-
-
+// console.log(countVowels("javascript")) 
 
 
-function removeFirstAndLast(str){
-  // console.log(str)
-    const cut =  str.slice(1,str.length -3)
-     return (cut)
-}
 
-console.log(removeFirstAndLast("Hello"))
-console.log(removeFirstAndLast("javascript"))
+
+// function removeFirstAndLast(str){
+//   // console.log(str)
+//     const cut =  str.slice(1,str.length -3)
+//      return (cut)
+// }
+
+// console.log(removeFirstAndLast("Hello"))
+// console.log(removeFirstAndLast("javascript"))
+
+
+ 
+// function isPalindrome(str) {
+//     let reverse = str.split("").reverse().join("")
+//      if(str === reverse){
+//         return true;
+//      }
+//      else{
+//         return false;
+//      }
+// }
+
+ 
+// console.log(isPalindrome("level")); 
+
+
+
+
+
+// const arr = ["code", "bangladesh", "Dhaka"]
+// console.log(arr.length)
+
+// let str = "programing hero code expart webdevloper"
+// let strSplitArr = str.split(" ")
+// console.log(strSplitArr.length)
+
+
