@@ -245,8 +245,30 @@
 // const arr = ["code", "bangladesh", "Dhaka"]
 // console.log(arr.length)
 
+      // whitout function
 // let str = "programing hero code expart webdevloper"
 // let strSplitArr = str.split(" ")
 // console.log(strSplitArr.length)
 
+function wordCount(str){
+  let strSplitArr = str.split(" ")
+     return (strSplitArr.length)
+}
 
+console.log(wordCount("Hello Bangladesh hello"))
+
+
+// function findShortestWord(sentence) {
+//   let words = sentence.split(" ");
+//   let shortest = words[0];
+//   for(let word of words){
+//     if(word.length <shortest.length){
+       
+//     }
+//   }
+ 
+//   return shortest;
+// }
+ 
+// console.log(findShortestWord("JavaScript is a fun language"));
+//  shortest = word
