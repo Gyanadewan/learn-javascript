@@ -5,7 +5,7 @@ function countAdults (People){
     let adultCount = 0;
    for ( let singleMan of People)
      if ( singleMan.age >=18){
-        adultCount ++
+        adultCount ++;
      }
      return adultCount
 }

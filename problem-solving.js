@@ -271,4 +271,22 @@ console.log(wordCount("Hello Bangladesh hello"))
 // }
  
 // console.log(findShortestWord("JavaScript is a fun language"));
-//  shortest = word
+
+
+function  checkVoter (age){
+  if (typeof age !== "number"){
+      return "Invalid"
+  }
+  if ( age >= 18){
+       return "tumi voter hote parba"
+  }
+  else{
+      return "tomar ekono boyos hoi ni"
+  }
+}
+
+ console.log(checkVoter (1))
+
+
+
+ 
