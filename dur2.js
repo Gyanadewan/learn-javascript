@@ -3,7 +3,7 @@ function countNumberProperties(numbers) {
  const result = {
     even: 0,
     odd: 0,
-    possitive: 0,
+    positive: 0,
     negative : 0
  }
  for (let num of numbers){
@@ -24,5 +24,5 @@ function countNumberProperties(numbers) {
  return result;
 }
 
-numbers = [2,3,4,5,6,7]
+numbers = [2,4,6,8,10]
 console.log(countNumberProperties(numbers))
